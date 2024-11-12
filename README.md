@@ -1,4 +1,3 @@
-Here's a README for your Age Calculator project, formatted for GitHub:
 
 ---
 
