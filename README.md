@@ -37,7 +37,7 @@ The Age Calculator application enables users to:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/age-calculator.git
+    git clone https:(https://kevinraj15.github.io/Finding-Age/)
     ```
 
 2. **Navigate to the project folder:**
