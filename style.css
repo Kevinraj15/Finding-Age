@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 10px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.container{
+    width: 700px;
+    height: 65vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+h1{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: -60px;
+    border-radius: 10px;
+}
+.container .inner{
+    width: 530px;
+    height: 300px;
+
+
+}
+.inner{
+    margin:20px 90px;
+    
+}
+
+.inputAndButton{
+    height: 120px;
+    background-color: black;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    
+}
+
+.dateOfBirth{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 30px 15px;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    color: rgb(33, 33, 211);
+}
+.dateOfBirth:focus{
+   border:solid 5px rgb(0, 0, 255) ;
+}
+
+button{
+    width: 150px;
+    height: 50px ;
+    border-radius: 10px;
+    margin: 30px 20px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+button:active{
+    background-color: blue;
+    color: bisque;
+}
+
+
+.innerOutput{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+
+.box{
+    padding: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: 600px;
+        height: 80vh;
+        
+    }
+    .container h1{
+        width: 600px;
+         
+    }
+    .innerOutput{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        margin: 10px 0px 0px 150px;
+    }
+    .innerOutput .box{
+        width: 100px;
+        display: flex;
+        align-items: center;
+    }
+}
